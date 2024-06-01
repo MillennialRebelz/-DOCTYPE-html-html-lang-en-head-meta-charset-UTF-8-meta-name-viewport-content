@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Millennial Rebelz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header img {
+            max-width: 200px;
+            height: auto;
+        }
+        header h1 {
+            margin: 0;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .quote {
+            font-style: italic;
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 200px;
+            margin: 1rem;
+        }
+        .contact {
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Client Logo ( MR ).jpg" alt="Millennial Rebelz Logo">
+        <h1>Millennial Rebelz</h1>
+    </header>
+
+    <section>
+        <h2>About</h2>
+        <p>Millennial Rebelz is a clothing line that promotes awareness of the need for changes that minorities continue to face within their communities. Whether it's racial, social, economical, abuse of authority, lack of protection within communities, or even crimes we commit against our own, our unique designs reflect these issues. Custom made designs including photo, font-only, and character designs will be available soon.</p>
+    </section>
+
+    <section class="quote">
+        <p>"Hence I have no mercy or compassion in me for a society that will crush people, and then penalize them for not being able to stand up under the weight." - Malcolm X</p>
+    </section>
+
+    <section>
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <!-- Placeholder images, replace with your clothing design images -->
+            <img src="placeholder1.jpg" alt="Design 1">
+            <img src="placeholder2.jpg" alt="Design 2">
+            <img src="placeholder3.jpg" alt="Design 3">
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: millennial.rebelz@gmail.com</p>
+        <p>Follow us on:
+            <a href="https://www.facebook.com/MillennialRebelz" target="_blank">Facebook</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Millennial Rebelz. All rights reserved.</p>
+    </footer>
+</body>
+</html>
